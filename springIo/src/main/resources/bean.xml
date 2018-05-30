@@ -18,22 +18,22 @@
 
 	<bean id="emp" class="com.academic.beans.Employee">
 		<!-- constructor Injection -->
-		<constructor-arg name="emp_Id" value="043" />
-		<constructor-arg name="emp_Name" value="shanth" />
+		<constructor-arg name="emp_Id" value="044" />
+		<constructor-arg name="emp_Name" value="surya" />
 		<constructor-arg name="emp_Salary" value="50000" />
-		<constructor-arg name="emp_Email" value="shanth043@outlook.com" />
+		<constructor-arg name="emp_Email" value="vans.madithadu97@gmail.com" />
 		
 		
 	</bean>
 
 	<bean id="car" class="com.academic.beans.Car">
 		<!-- setter Injection -->
-		<property name="model_Number" value="2222" />
+		<property name="model_Number" value="2772" />
 
 
 		<!-- constructor Injection -->
-		<constructor-arg index="0" value="Hyundai" />
-	    <constructor-arg index="0" value="Hyundai" />	
+		<constructor-arg index="0" value="Audi" />
+	    <constructor-arg index="0" value="Audi" />	
 	
 	</bean>
 
